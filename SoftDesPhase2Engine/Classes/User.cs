@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    internal class User
+    public abstract class User
     {
         string username = "Default";
     }
