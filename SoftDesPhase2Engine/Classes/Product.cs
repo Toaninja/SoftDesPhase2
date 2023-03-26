@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace SoftDesPhase2Engine.Classes
 {
     //Abstract class for the produce examples to inherit from
+    //carrot, peas, sunflower seeds, broccoli, potatoes, cauliflower
     public abstract class Product
     {
         //Constructor Override here
@@ -14,6 +15,7 @@ namespace SoftDesPhase2Engine.Classes
 
         string productName = "Default";
         int price;
+        public User seller;
 
 
 
