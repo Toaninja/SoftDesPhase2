@@ -1,3 +1,4 @@
+using SoftDesPhase2Engine;
 using SoftDesPhase2Engine.Classes;
 
 namespace SoftDesPhase2
@@ -15,6 +16,12 @@ namespace SoftDesPhase2
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+
+            ProductFactoryConcrete pFac = new ProductFactoryConcrete();
+
+            Console.WriteLine(pFac.createProduct());
+
+            pFac.createProduct();
         }
     }
 }
