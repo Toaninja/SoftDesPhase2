@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    public abstract class User
+    public class cart
     {
-        string username = "Default";
-        protected List<Product> ownItems;
-
-        public abstract void addProduct(Product item);
-   
+        public List<Product> itemsInCart;
     }
 }
