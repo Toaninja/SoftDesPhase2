@@ -33,7 +33,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button11 = new System.Windows.Forms.Button();
@@ -95,32 +94,22 @@
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(352, 25);
+            this.button4.Location = new System.Drawing.Point(259, 25);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(81, 23);
             this.button4.TabIndex = 10;
-            this.button4.Text = "Sell With Us";
+            this.button4.Text = "Dashboard";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(237, 25);
+            this.button3.Location = new System.Drawing.Point(144, 25);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 23);
             this.button3.TabIndex = 9;
             this.button3.Text = "Fresh Produce";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(144, 25);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Browse";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -135,6 +124,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::SoftDesPhase2.Properties.Resources.farmdirectlogo2;
             this.pictureBox1.Location = new System.Drawing.Point(469, 77);
             this.pictureBox1.Name = "pictureBox1";
@@ -310,7 +300,6 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "HomePage";
             this.Text = "Form3";
@@ -332,7 +321,6 @@
         private Button button5;
         private Button button4;
         private Button button3;
-        private Button button2;
         private Button button1;
         private PictureBox pictureBox1;
         private Button button11;

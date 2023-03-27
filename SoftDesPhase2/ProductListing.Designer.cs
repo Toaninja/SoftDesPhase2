@@ -33,7 +33,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -115,34 +114,23 @@
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(355, 23);
+            this.button4.Location = new System.Drawing.Point(260, 23);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(81, 23);
             this.button4.TabIndex = 10;
-            this.button4.Text = "Sell With Us";
+            this.button4.Text = "Dashboard";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(240, 23);
+            this.button3.Location = new System.Drawing.Point(145, 23);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 23);
             this.button3.TabIndex = 9;
             this.button3.Text = "Fresh Produce";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(147, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Browse";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -435,7 +423,7 @@
             this.pictureBox10.TabIndex = 29;
             this.pictureBox10.TabStop = false;
             // 
-            // Form2
+            // ProductListing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -476,10 +464,9 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.Transparent;
-            this.Name = "Form2";
+            this.Name = "ProductListing";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -503,7 +490,6 @@
         private Button button5;
         private Button button4;
         private Button button3;
-        private Button button2;
         private Button button1;
         private PictureBox pictureBox1;
         public Label label1;
