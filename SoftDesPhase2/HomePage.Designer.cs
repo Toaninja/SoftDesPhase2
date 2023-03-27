@@ -98,7 +98,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(81, 23);
             this.button4.TabIndex = 10;
-            this.button4.Text = "Sell With Us";
+            this.button4.Text = "Dashboard";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
