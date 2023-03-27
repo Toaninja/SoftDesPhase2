@@ -34,7 +34,7 @@ namespace SoftDesPhase2
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            label1.Visible = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -165,6 +165,27 @@ namespace SoftDesPhase2
         private void textBox10_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            HomePage newForm = new HomePage();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ProductListing newForm = new ProductListing();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Dashboard newForm = new Dashboard();
+            newForm.Show();
+            this.Hide();
         }
     }
 }

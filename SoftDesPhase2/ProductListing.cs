@@ -16,5 +16,26 @@ namespace SoftDesPhase2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HomePage newForm = new HomePage();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Dashboard newForm = new Dashboard();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ShoppingCart newForm = new ShoppingCart();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }

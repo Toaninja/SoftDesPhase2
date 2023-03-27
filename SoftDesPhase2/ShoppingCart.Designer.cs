@@ -59,16 +59,32 @@
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.Payment = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.carrotsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.peasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cauliflowerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sunflowerSeedsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.potatoesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(57, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(145, 145);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(453, 90);
             this.pictureBox1.TabIndex = 0;
@@ -77,7 +93,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(58, 199);
+            this.pictureBox2.Location = new System.Drawing.Point(146, 285);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 73);
             this.pictureBox2.TabIndex = 1;
@@ -86,7 +102,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(178, 199);
+            this.pictureBox3.Location = new System.Drawing.Point(266, 285);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 73);
             this.pictureBox3.TabIndex = 2;
@@ -95,7 +111,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(298, 199);
+            this.pictureBox4.Location = new System.Drawing.Point(386, 285);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 73);
             this.pictureBox4.TabIndex = 3;
@@ -104,7 +120,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(410, 199);
+            this.pictureBox5.Location = new System.Drawing.Point(498, 285);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 73);
             this.pictureBox5.TabIndex = 4;
@@ -113,7 +129,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(57, 170);
+            this.textBox1.Location = new System.Drawing.Point(145, 256);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(153, 23);
             this.textBox1.TabIndex = 5;
@@ -122,7 +138,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(57, 278);
+            this.textBox2.Location = new System.Drawing.Point(145, 364);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 6;
@@ -130,7 +146,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(177, 278);
+            this.textBox3.Location = new System.Drawing.Point(265, 364);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
             this.textBox3.TabIndex = 7;
@@ -138,7 +154,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(297, 278);
+            this.textBox4.Location = new System.Drawing.Point(385, 364);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 23);
             this.textBox4.TabIndex = 8;
@@ -146,7 +162,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(410, 278);
+            this.textBox5.Location = new System.Drawing.Point(498, 364);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 23);
             this.textBox5.TabIndex = 9;
@@ -155,7 +171,7 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox6.Location = new System.Drawing.Point(410, 307);
+            this.textBox6.Location = new System.Drawing.Point(498, 393);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 94);
@@ -164,7 +180,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(297, 307);
+            this.textBox7.Location = new System.Drawing.Point(385, 393);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 94);
@@ -173,7 +189,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(177, 307);
+            this.textBox8.Location = new System.Drawing.Point(265, 393);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 94);
@@ -182,7 +198,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(57, 307);
+            this.textBox9.Location = new System.Drawing.Point(145, 393);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 94);
@@ -191,7 +207,7 @@
             // 
             // AddToCart1
             // 
-            this.AddToCart1.Location = new System.Drawing.Point(57, 407);
+            this.AddToCart1.Location = new System.Drawing.Point(145, 493);
             this.AddToCart1.Name = "AddToCart1";
             this.AddToCart1.Size = new System.Drawing.Size(100, 23);
             this.AddToCart1.TabIndex = 14;
@@ -201,7 +217,7 @@
             // 
             // AddToCart2
             // 
-            this.AddToCart2.Location = new System.Drawing.Point(178, 407);
+            this.AddToCart2.Location = new System.Drawing.Point(266, 493);
             this.AddToCart2.Name = "AddToCart2";
             this.AddToCart2.Size = new System.Drawing.Size(100, 23);
             this.AddToCart2.TabIndex = 15;
@@ -211,7 +227,7 @@
             // 
             // AddToCart3
             // 
-            this.AddToCart3.Location = new System.Drawing.Point(297, 407);
+            this.AddToCart3.Location = new System.Drawing.Point(385, 493);
             this.AddToCart3.Name = "AddToCart3";
             this.AddToCart3.Size = new System.Drawing.Size(101, 23);
             this.AddToCart3.TabIndex = 16;
@@ -221,7 +237,7 @@
             // 
             // AddToCart4
             // 
-            this.AddToCart4.Location = new System.Drawing.Point(410, 407);
+            this.AddToCart4.Location = new System.Drawing.Point(498, 493);
             this.AddToCart4.Name = "AddToCart4";
             this.AddToCart4.Size = new System.Drawing.Size(100, 23);
             this.AddToCart4.TabIndex = 17;
@@ -231,7 +247,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(556, 126);
+            this.textBox10.Location = new System.Drawing.Point(644, 212);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 23);
             this.textBox10.TabIndex = 18;
@@ -239,7 +255,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(662, 126);
+            this.textBox11.Location = new System.Drawing.Point(750, 212);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 23);
             this.textBox11.TabIndex = 19;
@@ -247,7 +263,7 @@
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(556, 155);
+            this.textBox12.Location = new System.Drawing.Point(644, 241);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 23);
             this.textBox12.TabIndex = 20;
@@ -255,7 +271,7 @@
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(662, 155);
+            this.textBox13.Location = new System.Drawing.Point(750, 241);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 23);
             this.textBox13.TabIndex = 21;
@@ -263,7 +279,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(662, 213);
+            this.textBox14.Location = new System.Drawing.Point(750, 299);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 23);
             this.textBox14.TabIndex = 25;
@@ -271,7 +287,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(556, 213);
+            this.textBox15.Location = new System.Drawing.Point(644, 299);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 23);
             this.textBox15.TabIndex = 24;
@@ -279,7 +295,7 @@
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(662, 184);
+            this.textBox16.Location = new System.Drawing.Point(750, 270);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(100, 23);
             this.textBox16.TabIndex = 23;
@@ -287,7 +303,7 @@
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(556, 184);
+            this.textBox17.Location = new System.Drawing.Point(644, 270);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(100, 23);
             this.textBox17.TabIndex = 22;
@@ -295,7 +311,7 @@
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(662, 292);
+            this.textBox18.Location = new System.Drawing.Point(750, 378);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(100, 23);
             this.textBox18.TabIndex = 29;
@@ -303,7 +319,7 @@
             // 
             // textBox19
             // 
-            this.textBox19.Location = new System.Drawing.Point(556, 292);
+            this.textBox19.Location = new System.Drawing.Point(644, 378);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(100, 23);
             this.textBox19.TabIndex = 28;
@@ -311,7 +327,7 @@
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(662, 242);
+            this.textBox20.Location = new System.Drawing.Point(750, 328);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(100, 23);
             this.textBox20.TabIndex = 27;
@@ -319,7 +335,7 @@
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(556, 242);
+            this.textBox21.Location = new System.Drawing.Point(644, 328);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(100, 23);
             this.textBox21.TabIndex = 26;
@@ -327,20 +343,163 @@
             // 
             // Payment
             // 
-            this.Payment.Location = new System.Drawing.Point(593, 321);
+            this.Payment.Location = new System.Drawing.Point(681, 407);
             this.Payment.Name = "Payment";
             this.Payment.Size = new System.Drawing.Size(126, 23);
             this.Payment.TabIndex = 30;
-            this.Payment.Text = "Proceed to Payment";
+            this.Payment.Text = "Click To Pay";
             this.Payment.UseVisualStyleBackColor = true;
             this.Payment.Click += new System.EventHandler(this.button5_Click);
             // 
-            // Form1
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(734, 32);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 36;
+            this.button6.Text = "Search";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(660, 32);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(68, 23);
+            this.textBox22.TabIndex = 35;
+            this.textBox22.Text = "Search";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(561, 23);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 41);
+            this.button5.TabIndex = 34;
+            this.button5.Text = "Cart";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Location = new System.Drawing.Point(262, 32);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(81, 23);
+            this.button4.TabIndex = 33;
+            this.button4.Text = "Dashboard";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Location = new System.Drawing.Point(147, 32);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(98, 23);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "Fresh Produce";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(57, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "Home";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem3});
+            this.menuStrip1.Location = new System.Drawing.Point(660, 58);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(62, 23);
+            this.menuStrip1.TabIndex = 37;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.carrotsToolStripMenuItem,
+            this.peasToolStripMenuItem,
+            this.cauliflowerToolStripMenuItem,
+            this.sunflowerSeedsToolStripMenuItem,
+            this.potatoesToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 19);
+            // 
+            // carrotsToolStripMenuItem
+            // 
+            this.carrotsToolStripMenuItem.Name = "carrotsToolStripMenuItem";
+            this.carrotsToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.carrotsToolStripMenuItem.Text = "Carrots";
+            // 
+            // peasToolStripMenuItem
+            // 
+            this.peasToolStripMenuItem.Name = "peasToolStripMenuItem";
+            this.peasToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.peasToolStripMenuItem.Text = "Peas";
+            // 
+            // cauliflowerToolStripMenuItem
+            // 
+            this.cauliflowerToolStripMenuItem.Name = "cauliflowerToolStripMenuItem";
+            this.cauliflowerToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.cauliflowerToolStripMenuItem.Text = "Cauliflower";
+            // 
+            // sunflowerSeedsToolStripMenuItem
+            // 
+            this.sunflowerSeedsToolStripMenuItem.Name = "sunflowerSeedsToolStripMenuItem";
+            this.sunflowerSeedsToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.sunflowerSeedsToolStripMenuItem.Text = "Sunflower Seeds";
+            // 
+            // potatoesToolStripMenuItem
+            // 
+            this.potatoesToolStripMenuItem.Name = "potatoesToolStripMenuItem";
+            this.potatoesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.potatoesToolStripMenuItem.Text = "Potatoes";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(12, 19);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(660, 466);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(287, 21);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Congratulations, payment sucessful!";
+            this.label1.Visible = false;
+            // 
+            // ShoppingCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(780, 453);
+            this.ClientSize = new System.Drawing.Size(1025, 529);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.textBox22);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Payment);
             this.Controls.Add(this.textBox18);
             this.Controls.Add(this.textBox19);
@@ -372,7 +531,9 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "ShoppingCart";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -380,6 +541,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -387,7 +550,6 @@
 
         #endregion
 
-<<<<<<< HEAD
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
@@ -419,7 +581,7 @@
         private TextBox textBox20;
         private TextBox textBox21;
         private Button Payment;
-=======
+        
         private Button homeButton;
         private Button browseButton;
         private Button fpButton;
@@ -427,6 +589,21 @@
         private Button cartButton;
         private TextBox searchTextbox;
         private Button searchButton;
->>>>>>> UI-flavius
+        private Button button6;
+        private TextBox textBox22;
+        private Button button5;
+        private Button button4;
+        private Button button3;
+        private Button button1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem carrotsToolStripMenuItem;
+        private ToolStripMenuItem peasToolStripMenuItem;
+        private ToolStripMenuItem cauliflowerToolStripMenuItem;
+        private ToolStripMenuItem sunflowerSeedsToolStripMenuItem;
+        private ToolStripMenuItem potatoesToolStripMenuItem;
+        private Label label1;
     }
 }
