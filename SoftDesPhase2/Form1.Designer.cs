@@ -42,10 +42,10 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.AddToCart1 = new System.Windows.Forms.Button();
+            this.AddToCart2 = new System.Windows.Forms.Button();
+            this.AddToCart3 = new System.Windows.Forms.Button();
+            this.AddToCart4 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
@@ -58,7 +58,7 @@
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.Payment = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -176,42 +176,43 @@
             this.textBox9.Size = new System.Drawing.Size(100, 94);
             this.textBox9.TabIndex = 10;
             // 
-            // button1
+            // AddToCart1
             // 
-            this.button1.Location = new System.Drawing.Point(57, 407);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Add to Cart";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AddToCart1.Location = new System.Drawing.Point(57, 407);
+            this.AddToCart1.Name = "AddToCart1";
+            this.AddToCart1.Size = new System.Drawing.Size(100, 23);
+            this.AddToCart1.TabIndex = 14;
+            this.AddToCart1.Text = "Add to Cart";
+            this.AddToCart1.UseVisualStyleBackColor = true;
+            this.AddToCart1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // AddToCart2
             // 
-            this.button2.Location = new System.Drawing.Point(178, 407);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Add to Cart";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.AddToCart2.Location = new System.Drawing.Point(178, 407);
+            this.AddToCart2.Name = "AddToCart2";
+            this.AddToCart2.Size = new System.Drawing.Size(100, 23);
+            this.AddToCart2.TabIndex = 15;
+            this.AddToCart2.Text = "Add to Cart";
+            this.AddToCart2.UseVisualStyleBackColor = true;
+            this.AddToCart2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // AddToCart3
             // 
-            this.button3.Location = new System.Drawing.Point(297, 407);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 23);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Add to Cart";
-            this.button3.UseVisualStyleBackColor = true;
+            this.AddToCart3.Location = new System.Drawing.Point(297, 407);
+            this.AddToCart3.Name = "AddToCart3";
+            this.AddToCart3.Size = new System.Drawing.Size(101, 23);
+            this.AddToCart3.TabIndex = 16;
+            this.AddToCart3.Text = "Add to Cart";
+            this.AddToCart3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // AddToCart4
             // 
-            this.button4.Location = new System.Drawing.Point(410, 407);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 23);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Add to Cart";
-            this.button4.UseVisualStyleBackColor = true;
+            this.AddToCart4.Location = new System.Drawing.Point(410, 407);
+            this.AddToCart4.Name = "AddToCart4";
+            this.AddToCart4.Size = new System.Drawing.Size(100, 23);
+            this.AddToCart4.TabIndex = 17;
+            this.AddToCart4.Text = "Add to Cart";
+            this.AddToCart4.UseVisualStyleBackColor = true;
             // 
             // textBox10
             // 
@@ -298,14 +299,15 @@
             this.textBox21.Size = new System.Drawing.Size(100, 23);
             this.textBox21.TabIndex = 26;
             // 
-            // button5
+            // Payment
             // 
-            this.button5.Location = new System.Drawing.Point(593, 321);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(126, 23);
-            this.button5.TabIndex = 30;
-            this.button5.Text = "Proceed to Payment";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Payment.Location = new System.Drawing.Point(593, 321);
+            this.Payment.Name = "Payment";
+            this.Payment.Size = new System.Drawing.Size(126, 23);
+            this.Payment.TabIndex = 30;
+            this.Payment.Text = "Proceed to Payment";
+            this.Payment.UseVisualStyleBackColor = true;
+            this.Payment.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
@@ -313,7 +315,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(807, 462);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.Payment);
             this.Controls.Add(this.textBox18);
             this.Controls.Add(this.textBox19);
             this.Controls.Add(this.textBox20);
@@ -326,10 +328,10 @@
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddToCart4);
+            this.Controls.Add(this.AddToCart3);
+            this.Controls.Add(this.AddToCart2);
+            this.Controls.Add(this.AddToCart1);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox8);
@@ -373,10 +375,10 @@
         private TextBox textBox7;
         private TextBox textBox8;
         private TextBox textBox9;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Button AddToCart1;
+        private Button AddToCart2;
+        private Button AddToCart3;
+        private Button AddToCart4;
         private TextBox textBox10;
         private TextBox textBox11;
         private TextBox textBox12;
@@ -389,6 +391,6 @@
         private TextBox textBox19;
         private TextBox textBox20;
         private TextBox textBox21;
-        private Button button5;
+        private Button Payment;
     }
 }
