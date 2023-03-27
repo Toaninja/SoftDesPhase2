@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SoftDesPhase2
 {
-    public partial class Form2 : Form
+    public partial class ProductListing : Form
     {
-        public Form2()
+        public ProductListing()
         {
             InitializeComponent();
         }

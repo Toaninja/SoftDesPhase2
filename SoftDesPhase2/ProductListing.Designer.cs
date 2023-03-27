@@ -1,6 +1,6 @@
 ﻿namespace SoftDesPhase2
 {
-    partial class Form2
+    partial class ProductListing
     {
         /// <summary>
         /// Required designer variable.

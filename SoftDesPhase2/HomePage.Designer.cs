@@ -1,6 +1,6 @@
 ﻿namespace SoftDesPhase2
 {
-    partial class Form3
+    partial class HomePage
     {
         /// <summary>
         /// Required designer variable.
