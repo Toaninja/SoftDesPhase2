@@ -6,5 +6,10 @@ namespace SoftDesPhase2
         {
             InitializeComponent();
         }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
