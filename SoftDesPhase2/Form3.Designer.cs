@@ -39,7 +39,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(991, 25);
+            this.button6.Location = new System.Drawing.Point(753, 25);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 13;
@@ -48,7 +48,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(917, 25);
+            this.textBox1.Location = new System.Drawing.Point(679, 25);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(68, 23);
             this.textBox1.TabIndex = 12;
@@ -63,7 +63,7 @@
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(818, 16);
+            this.button5.Location = new System.Drawing.Point(580, 16);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 41);
             this.button5.TabIndex = 11;
@@ -115,7 +115,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1207, 576);
+            this.ClientSize = new System.Drawing.Size(961, 576);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button5);
