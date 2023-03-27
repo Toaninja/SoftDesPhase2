@@ -63,6 +63,16 @@ namespace SoftDesPhase2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap farmdirectlogo {
+            get {
+                object obj = ResourceManager.GetObject("farmdirectlogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap farmdirectlogo1 {
             get {
                 object obj = ResourceManager.GetObject("farmdirectlogo1", resourceCulture);
