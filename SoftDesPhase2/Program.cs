@@ -17,6 +17,9 @@ namespace SoftDesPhase2
             ApplicationConfiguration.Initialize();
             Application.Run(new HomePage());
 
+            Farmer Lance = new Farmer("Lance", "Phone", "Ontario", "Big ahh farm");
+            Product Peas = new Product(123, "Peas", "Green lil guys", 10.00, 30, Lance);
+
         }
     }
 }
