@@ -72,6 +72,11 @@ namespace SoftDesPhase2Engine.Classes
                     return 0;
                 }
             }
+
+            ~RatingRepository()
+            {
+
+            }
         }
     }
 
