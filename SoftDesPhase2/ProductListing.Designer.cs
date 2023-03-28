@@ -374,6 +374,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(139, 102);
             this.textBox2.TabIndex = 54;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button2
             // 
@@ -392,6 +393,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(139, 102);
             this.textBox3.TabIndex = 56;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button8
             // 
@@ -428,6 +430,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(139, 102);
             this.textBox5.TabIndex = 60;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // button10
             // 
@@ -446,6 +449,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(139, 102);
             this.textBox6.TabIndex = 62;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // button11
             // 
@@ -464,6 +468,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(139, 102);
             this.textBox7.TabIndex = 64;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // button12
             // 
@@ -518,6 +523,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(139, 102);
             this.textBox10.TabIndex = 70;
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // button15
             // 
@@ -536,6 +542,7 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(139, 102);
             this.textBox11.TabIndex = 72;
+            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // ProductListing
             // 
@@ -592,6 +599,7 @@
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "ProductListing";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.ProductListing_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -636,7 +644,6 @@
         private Label label18;
         private Label label19;
         private Label label20;
-        private TextBox textBox2;
         private Button button2;
         private TextBox textBox3;
         private Button button8;
@@ -644,7 +651,6 @@
         private Button button9;
         private TextBox textBox5;
         private Button button10;
-        private TextBox textBox6;
         private Button button11;
         private TextBox textBox7;
         private Button button12;
@@ -655,5 +661,7 @@
         private TextBox textBox10;
         private Button button15;
         private TextBox textBox11;
+        public TextBox textBox2;
+        public TextBox textBox6;
     }
 }
