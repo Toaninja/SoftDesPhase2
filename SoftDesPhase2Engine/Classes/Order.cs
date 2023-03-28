@@ -22,8 +22,6 @@ namespace SoftDesPhase2Engine.Classes
         bool IsPaid { get; set; }
 
         double GetTotalPrice();
-        void ProcessPayment(Payment payment);
-        void RefundPayment();
         string GetOrderDetails();
     }
 
@@ -65,23 +63,6 @@ namespace SoftDesPhase2Engine.Classes
             }
             return total;
         }
-
-        /**
-        public void ProcessPayment(Payment payment)
-        {
-            Payment = payment;
-            IsPaid = payment.ProcessPayment();
-        }
-
-        public void RefundPayment()
-        {
-            if (Payment != null)
-            {
-                Payment.RefundPayment();
-                IsPaid = false;
-            }
-        }
-        */
 
         public string GetOrderDetails()
         {

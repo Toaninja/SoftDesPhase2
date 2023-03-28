@@ -54,7 +54,7 @@ namespace SoftDesPhase2Engine.Classes
             return _repository.GetRatingsByCustomer(Customer);
         }
 
-        public float GetAverageRating()
+        public double GetAverageRating()
         {
             return _repository.GetAverageRating(Product);
         }

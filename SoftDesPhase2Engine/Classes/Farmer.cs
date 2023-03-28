@@ -1,5 +1,4 @@
-﻿using SoftDesPhase2Engine.Interfaces;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace SoftDesPhase2Engine.Classes
