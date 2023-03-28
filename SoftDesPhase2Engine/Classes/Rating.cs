@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    internal interface ItemInterface
+    internal class Rating
     {
-
     }
 }

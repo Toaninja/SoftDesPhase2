@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    internal class Shopper : User
+    internal class Payment
     {
-        public cart shoppingCart;
-        public override void addProduct(Product item)
-        {
-            ownItems.Add(item);
-        }
     }
 }

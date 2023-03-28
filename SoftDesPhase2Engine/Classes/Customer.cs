@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    public class cart
+    internal class Customer
     {
-        public List<Product> itemsInCart;
     }
 }

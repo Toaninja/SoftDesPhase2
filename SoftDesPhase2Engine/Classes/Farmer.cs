@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    public class Farmer : User
+    internal class Farmer
     {
-        public override void addProduct(Product item)
-        {
-            ownItems.Add(item);
-
-        }
     }
 }

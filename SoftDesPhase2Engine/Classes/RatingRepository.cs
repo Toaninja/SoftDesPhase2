@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoftDesPhase2Engine.Classes
 {
-    public class Carrot
+    internal class RatingRepository
     {
     }
 }
