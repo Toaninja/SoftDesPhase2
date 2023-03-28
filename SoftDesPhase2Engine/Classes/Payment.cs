@@ -58,3 +58,8 @@ namespace SoftDesPhase2Engine.Classes
         }
     }
 }
+
+//Single Responsibility Principle: Each class/interface has a single responsibility, which makes it easy to maintain and test.
+//Interface Segregation Principle: The interfaces define only the methods that are needed, which reduces coupling between classes.
+//Dependency Inversion Principle: The PaymentProcessor and RefundProcessor classes depend on abstractions (IPaymentProcessor and IRefundProcessor),
+//not on concrete implementations. This makes the code flexible and easy to extend.
