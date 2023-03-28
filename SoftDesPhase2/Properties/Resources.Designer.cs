@@ -63,6 +63,46 @@ namespace SoftDesPhase2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap brocolli {
+            get {
+                object obj = ResourceManager.GetObject("brocolli", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carrots {
+            get {
+                object obj = ResourceManager.GetObject("carrots", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carrots1 {
+            get {
+                object obj = ResourceManager.GetObject("carrots1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cauliflower {
+            get {
+                object obj = ResourceManager.GetObject("cauliflower", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap farmdirectlogo {
             get {
                 object obj = ResourceManager.GetObject("farmdirectlogo", resourceCulture);
@@ -86,6 +126,36 @@ namespace SoftDesPhase2.Properties {
         internal static System.Drawing.Bitmap farmdirectlogo2 {
             get {
                 object obj = ResourceManager.GetObject("farmdirectlogo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap peas {
+            get {
+                object obj = ResourceManager.GetObject("peas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap potatoes {
+            get {
+                object obj = ResourceManager.GetObject("potatoes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunflower_seeds {
+            get {
+                object obj = ResourceManager.GetObject("sunflower seeds", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
