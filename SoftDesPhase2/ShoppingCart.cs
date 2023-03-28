@@ -4,6 +4,10 @@ namespace SoftDesPhase2
 {
     public partial class ShoppingCart : Form
     {
+
+        private bool infoDisplayed1, infoDisplayed2, infoDisplayed3, infoDisplayed4 = false;
+
+        double button1Price, button2Price, button3Price, button4Price = 0;
         public ShoppingCart()
         {
             InitializeComponent();
@@ -28,7 +32,7 @@ namespace SoftDesPhase2
             textBox6.AppendText("Quantity: " + Broccoli.Quantity.ToString() + " left" + Environment.NewLine);
             textBox6.AppendText("Seller: " + Broccoli.Seller.Name);
 
-            
+
             textBox7.AppendText(Carrots.Description + Environment.NewLine);
             textBox24.AppendText("$" + Carrots.Price.ToString() + Environment.NewLine);
             textBox7.AppendText("Quantity: " + Carrots.Quantity.ToString() + " left" + Environment.NewLine);
@@ -57,17 +61,58 @@ namespace SoftDesPhase2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (!infoDisplayed1)
+            {
+                // display info only once from textBox2 to textBox10 when clicking on button1
+                textBox12.AppendText(textBox3.Text + Environment.NewLine);
+                infoDisplayed1 = true;
 
+                // disable the TextBox to prevent further editing
+                textBox12.Enabled = false;
+                textBox12.ReadOnly = true;
+            }
+
+            button1Price += 5;
+            textBox13.AppendText("$" + button1Price.ToString() + Environment.NewLine);
+            textBox13.Clear();
+            textBox13.AppendText("$" + button1Price.ToString() + Environment.NewLine);
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!infoDisplayed2)
+            {
+                // display info only once from textBox2 to textBox10 when clicking on button1
+                textBox10.AppendText(textBox2.Text + Environment.NewLine);
+                infoDisplayed2 = true;
+
+                // disable the TextBox to prevent further editing
+                textBox10.Enabled = false;
+                textBox10.ReadOnly = true;
+            }
+
+            button2Price += 10;
+            
+            textBox11.AppendText("$" + button2Price.ToString() + Environment.NewLine);
+            textBox11.Clear();
+            textBox11.AppendText("$" + button2Price.ToString() + Environment.NewLine);
+
 
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             label1.Visible = true;
+            
+            //erase contents from textBox10 when clicking on button5
+            textBox10.Clear();
+            textBox11.Clear();
+            textBox12.Clear();
+            textBox13.Clear();
+            textBox14.Clear();
+            textBox15.Clear();
+            textBox16.Clear();
+            textBox17.Clear();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -102,7 +147,22 @@ namespace SoftDesPhase2
 
         private void AddToCart3_Click(object sender, EventArgs e)
         {
+            if (!infoDisplayed3)
+            {
+                // display info only once from textBox2 to textBox10 when clicking on button1
+                textBox14.AppendText(textBox4.Text + Environment.NewLine);
+                infoDisplayed3 = true;
 
+                // disable the TextBox to prevent further editing
+                textBox14.Enabled = false;
+                textBox14.ReadOnly = true;
+            }
+
+            button3Price += 50;
+
+            textBox15.AppendText("$" + button3Price.ToString() + Environment.NewLine);
+            textBox15.Clear();
+            textBox15.AppendText("$" + button3Price.ToString() + Environment.NewLine);
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
@@ -127,7 +187,22 @@ namespace SoftDesPhase2
 
         private void AddToCart4_Click(object sender, EventArgs e)
         {
+            if (!infoDisplayed4)
+            {
+                // display info only once from textBox2 to textBox10 when clicking on button1
+                textBox16.AppendText(textBox5.Text + Environment.NewLine);
+                infoDisplayed4 = true;
 
+                // disable the TextBox to prevent further editing
+                textBox16.Enabled = false;
+                textBox16.ReadOnly = true;
+            }
+
+            button4Price += 10;
+
+            textBox17.AppendText("$" + button4Price.ToString() + Environment.NewLine);
+            textBox17.Clear();
+            textBox17.AppendText("$" + button4Price.ToString() + Environment.NewLine);
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -202,9 +277,6 @@ namespace SoftDesPhase2
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            HomePage newForm = new HomePage();
-            newForm.Show();
-            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
