@@ -372,6 +372,7 @@
             this.textBox2.Location = new System.Drawing.Point(57, 225);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(139, 102);
             this.textBox2.TabIndex = 54;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -634,7 +635,6 @@
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
-        private Label label11;
         private Label label12;
         private Label label13;
         private Label label14;

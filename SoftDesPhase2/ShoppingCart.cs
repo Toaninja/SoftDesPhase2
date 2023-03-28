@@ -1,3 +1,5 @@
+using SoftDesPhase2Engine.Classes;
+
 namespace SoftDesPhase2
 {
     public partial class ShoppingCart : Form
@@ -9,7 +11,38 @@ namespace SoftDesPhase2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Farmer Flavius = new Farmer("Flavius", "Phone", "Ontario", "Small farm");
+            Farmer Lance = new Farmer("Lance", "Phone", "Ontario", "Big farm");
+            Product Peas = new Product(123, "Peas", "Green lil guys", 10.00, 30, Flavius);
+            Product Carrots = new Product(123, "Carrots", "Pointy guys", 5.00, 60, Lance);
+            Product Tomatoes = new Product(123, "Tomatoes", "Round red fellas", 15.00, 100, Lance);
+            Product Potatoes = new Product(123, "Potatoes", "Healthy brownies", 20.00, 50, Flavius);
+            Product Lettuce = new Product(123, "Lettuce", "Green leafy guys", 10.00, 40, Lance);
+            Product Cucumber = new Product(123, "Cucumber", "Green pointy guys", 20.00, 75, Flavius);
+            Product Cauliflower = new Product(123, "Cauliflower", "Broccoli but better", 15.00, 80, Lance);
+            Product Broccoli = new Product(123, "Broccoli", "Cauliflower but worse", 10.00, 90, Flavius);
+            Product SunflowerSeeds = new Product(123, "Sunflower Seeds", "Healthy snacks", 5.00, 100, Flavius);
+            
+            textBox6.AppendText(Broccoli.Description + Environment.NewLine);
+            textBox23.AppendText("$" + Broccoli.Price.ToString() + Environment.NewLine);
+            textBox6.AppendText("Quantity: " + Broccoli.Quantity.ToString() + " left" + Environment.NewLine);
+            textBox6.AppendText("Seller: " + Broccoli.Seller.Name);
 
+            
+            textBox7.AppendText(Carrots.Description + Environment.NewLine);
+            textBox24.AppendText("$" + Carrots.Price.ToString() + Environment.NewLine);
+            textBox7.AppendText("Quantity: " + Carrots.Quantity.ToString() + " left" + Environment.NewLine);
+            textBox7.AppendText("Seller: " + Carrots.Seller.Name);
+
+            textBox8.AppendText(Potatoes.Description + Environment.NewLine);
+            textBox25.AppendText("$" + Potatoes.Price.ToString() + Environment.NewLine);
+            textBox8.AppendText("Quantity: " + Potatoes.Quantity.ToString() + " left" + Environment.NewLine);
+            textBox8.AppendText("Seller: " + Potatoes.Seller.Name);
+
+            textBox9.AppendText(Peas.Description + Environment.NewLine);
+            textBox26.AppendText("$" + Peas.Price.ToString() + Environment.NewLine);
+            textBox9.AppendText("Quantity: " + Peas.Quantity.ToString() + " left" + Environment.NewLine);
+            textBox9.AppendText("Seller: " + Peas.Seller.Name);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

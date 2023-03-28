@@ -19,6 +19,10 @@ namespace SoftDesPhase2
             ApplicationConfiguration.Initialize();
             Application.Run(new HomePage());
 
+
+
+
+
         }
     }
 }
