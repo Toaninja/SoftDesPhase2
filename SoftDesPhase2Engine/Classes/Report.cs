@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoftDesPhase2Engine.Classes;
+using System;
 
 namespace SoftDesPhase2Engine.Classes
 {
@@ -51,3 +52,13 @@ namespace SoftDesPhase2Engine.Classes
         }
     }
 }
+
+
+//Responsibility Principle (SRP): The Report class has a single responsibility, which is to generate, export, and send reports. Each of these tasks is separated into its own interface,
+//and the Report class implements all of them.
+
+//Interface Segregation Principle (ISP): The Report class implements multiple interfaces, each of which has a single responsibility. This means that the Report class only needs to implement
+//the methods relevant to its purpose, and it does not need to implement methods that are not used.
+
+//Dependency Inversion Principle (DIP): The interfaces(IReportGenerator, IReportExporter, and IReportSender) are abstractions that the Report class depends on, rather than depending on
+//concrete implementations. This allows the Report class to be flexible and easily maintainable, as the specific implementation of each interface can be changed without affecting the Report class.

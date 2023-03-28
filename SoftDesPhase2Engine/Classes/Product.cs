@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
+using System.ComponentModel;
+using System.Runtime.Intrinsics.Arm;
 
 namespace SoftDesPhase2Engine.Classes
 {
@@ -95,3 +98,17 @@ namespace SoftDesPhase2Engine.Classes
     }
 }
 
+//Single Responsibility Principle (SRP): The Product class has only one responsibility, which is to represent a product and provide functionality related to it, such as adding a rating,
+//checking availability, decreasing the quantity, and getting the total sales. Each interface also has a single responsibility related to a product, such as rating, quantity, and sales.
+
+//Open / Closed Principle(OCP): The Product class is open for extension but closed for modification, which means that new functionality can be added to the class without changing its existing
+//implementation. For example, new interfaces can be added to the class without modifying its existing methods, which makes the code more flexible and easier to maintain.
+
+//Liskov Substitution Principle (LSP): The Product class implements the IRateable, IQuantifiable, and ISellable interfaces, and any instance of the Product class can be used wherever any of
+//these interfaces are expected. This means that the Product class satisfies the LSP.
+
+//Interface Segregation Principle (ISP): The interfaces (IRateable, IQuantifiable, and ISellable) are designed to be segregated and only contain the methods that are relevant to their respective
+//responsibilities. This makes the interfaces more focused and less likely to be changed, and allows for classes to implement only the interfaces they need.
+
+//Dependency Inversion Principle (DIP): The interfaces (IRateable, IQuantifiable, and ISellable) are defined separately from the Product class, which makes the class less dependent on specific
+//implementations of those interfaces. This makes the code more flexible, since different implementations of those interfaces can be used without changing the Product class.

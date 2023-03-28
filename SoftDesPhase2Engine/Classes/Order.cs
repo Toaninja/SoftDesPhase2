@@ -1,4 +1,12 @@
-﻿using System;
+﻿// This code defines two interfaces, IOrderItem and IOrder, and two classes, OrderItem and Order, that implement these interfaces.
+// The IOrderItem interface defines two properties, Product and Quantity, which represent the product being ordered and the quantity of the product.
+// The IOrder interface defines several properties, including OrderId, OrderDate, Customer, OrderItems, Payment, and IsPaid, as well as two methods, GetTotalPrice and GetOrderDetails.
+// The OrderItem class implements the IOrderItem interface and provides a constructor that takes a product and a quantity and initializes the properties.
+// The Order class implements the IOrder interface and provides a constructor that takes a customer and a list of order items and initializes the properties.
+// The class also has methods for calculating the total price of the order and getting the order details, which include the order ID, order date, customer name, order items, total price,
+// payment method, and whether the order is paid or not.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -83,3 +91,7 @@ namespace SoftDesPhase2Engine.Classes
     }
 
 }
+
+// This code follows the Interface Segregation Principle since the interfaces are separated and each interface only contains a set of related properties or methods.
+// Additionally, the code follows the Open/Closed Principle since the code is designed to be easily extended in the future without the need for modifying the existing code.
+// Moreover, the code follows the Single Responsibility Principle by separating the order-related classes from other classes in the system, and each method of the class performs a single task.

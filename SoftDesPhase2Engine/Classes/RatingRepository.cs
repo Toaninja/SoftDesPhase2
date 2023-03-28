@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoftDesPhase2Engine.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,3 +76,18 @@ namespace SoftDesPhase2Engine.Classes
     }
 
 }
+
+
+//Single Responsibility Principle (SRP): The RatingRepository class has a single responsibility of managing ratings data and provides methods to add, update, delete, and retrieve rating objects.
+
+//Open-Closed Principle (OCP): The RatingRepository class is open for extension but closed for modification.This is because if we want to add new functionalities to this class, we can do so
+//without changing the existing code.
+
+//Liskov Substitution Principle (LSP): The RatingRepository class uses List<Ratings> to store ratings, which means that any subtype of Ratings can be used interchangeably with the
+//RatingRepository class.
+
+//Interface Segregation Principle (ISP): There are no interfaces explicitly defined in this code, but the design follows the principle by not including any unnecessary methods in the
+//RatingRepository class.
+
+//Dependency Inversion Principle (DIP): The RatingRepository class depends on abstractions rather than concrete implementations. For example, the AddRating method accepts a Ratings object as a
+//parameter rather than a specific type of Ratings object. This allows for greater flexibility and makes the code easier to maintain and test.
