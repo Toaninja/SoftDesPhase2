@@ -134,7 +134,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::SoftDesPhase2.Properties.Resources.farmdirectlogo2;
-            this.pictureBox1.Location = new System.Drawing.Point(550, 63);
+            this.pictureBox1.Location = new System.Drawing.Point(561, 54);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(325, 255);
             this.pictureBox1.TabIndex = 14;
