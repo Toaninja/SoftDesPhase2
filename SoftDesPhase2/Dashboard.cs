@@ -107,7 +107,6 @@ namespace SoftDesPhase2
             double TotalEarnings = Lance.CalculateEarnings(Lance, MyList);
             textBox6.AppendText("Total Earnings: $" + TotalEarnings.ToString("0.00"));
 
-
         }
     }
 }
