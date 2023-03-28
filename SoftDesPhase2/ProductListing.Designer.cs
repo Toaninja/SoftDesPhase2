@@ -36,34 +36,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.button14 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.button15 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.button16 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -75,6 +56,25 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.button15 = new System.Windows.Forms.Button();
+            this.textBox11 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -166,35 +166,15 @@
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(57, 225);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 102);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "label1";
-            // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.Blue;
-            this.button7.Location = new System.Drawing.Point(68, 294);
+            this.button7.Location = new System.Drawing.Point(57, 304);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(78, 23);
             this.button7.TabIndex = 16;
             this.button7.Text = "Add to Cart";
             this.button7.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(383, 225);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 102);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "label2";
             // 
             // pictureBox2
             // 
@@ -205,36 +185,6 @@
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
             // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Blue;
-            this.button8.Location = new System.Drawing.Point(394, 294);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(78, 23);
-            this.button8.TabIndex = 19;
-            this.button8.Text = "Add to Cart";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Blue;
-            this.button9.Location = new System.Drawing.Point(230, 294);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(78, 23);
-            this.button9.TabIndex = 22;
-            this.button9.Text = "Add to Cart";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Location = new System.Drawing.Point(220, 225);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 102);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "label3";
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::SoftDesPhase2.Properties.Resources.potatoes;
@@ -243,26 +193,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(139, 82);
             this.pictureBox3.TabIndex = 20;
             this.pictureBox3.TabStop = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Blue;
-            this.button10.Location = new System.Drawing.Point(553, 294);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(78, 23);
-            this.button10.TabIndex = 25;
-            this.button10.Text = "Add to Cart";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(544, 225);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 102);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "label4";
             // 
             // pictureBox4
             // 
@@ -273,26 +203,6 @@
             this.pictureBox4.TabIndex = 23;
             this.pictureBox4.TabStop = false;
             // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Blue;
-            this.button11.Location = new System.Drawing.Point(715, 294);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(86, 23);
-            this.button11.TabIndex = 28;
-            this.button11.Text = "Add to Cart";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(706, 225);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 102);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "label5";
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::SoftDesPhase2.Properties.Resources.peas;
@@ -301,26 +211,6 @@
             this.pictureBox5.Size = new System.Drawing.Size(140, 82);
             this.pictureBox5.TabIndex = 26;
             this.pictureBox5.TabStop = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Blue;
-            this.button12.Location = new System.Drawing.Point(715, 543);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(79, 23);
-            this.button12.TabIndex = 43;
-            this.button12.Text = "Add to Cart";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Location = new System.Drawing.Point(706, 473);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 102);
-            this.label6.TabIndex = 42;
-            this.label6.Text = "label6";
             // 
             // pictureBox6
             // 
@@ -331,26 +221,6 @@
             this.pictureBox6.TabIndex = 41;
             this.pictureBox6.TabStop = false;
             // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.Blue;
-            this.button13.Location = new System.Drawing.Point(553, 543);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(78, 23);
-            this.button13.TabIndex = 40;
-            this.button13.Text = "Add to Cart";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Location = new System.Drawing.Point(544, 473);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 102);
-            this.label7.TabIndex = 39;
-            this.label7.Text = "label7";
-            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
@@ -359,26 +229,6 @@
             this.pictureBox7.Size = new System.Drawing.Size(139, 82);
             this.pictureBox7.TabIndex = 38;
             this.pictureBox7.TabStop = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.Blue;
-            this.button14.Location = new System.Drawing.Point(230, 543);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(78, 23);
-            this.button14.TabIndex = 37;
-            this.button14.Text = "Add to Cart";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(220, 473);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(139, 102);
-            this.label8.TabIndex = 36;
-            this.label8.Text = "label8";
             // 
             // pictureBox8
             // 
@@ -389,26 +239,6 @@
             this.pictureBox8.TabIndex = 35;
             this.pictureBox8.TabStop = false;
             // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Blue;
-            this.button15.Location = new System.Drawing.Point(394, 543);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(78, 23);
-            this.button15.TabIndex = 34;
-            this.button15.Text = "Add to Cart";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Location = new System.Drawing.Point(383, 473);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(139, 102);
-            this.label9.TabIndex = 33;
-            this.label9.Text = "label9";
-            // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
@@ -417,26 +247,6 @@
             this.pictureBox9.Size = new System.Drawing.Size(139, 82);
             this.pictureBox9.TabIndex = 32;
             this.pictureBox9.TabStop = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.Blue;
-            this.button16.Location = new System.Drawing.Point(68, 543);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(78, 23);
-            this.button16.TabIndex = 31;
-            this.button16.Text = "Add to Cart";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // label10
-            // 
-            this.label10.BackColor = System.Drawing.Color.White;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(57, 472);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(139, 102);
-            this.label10.TabIndex = 30;
-            this.label10.Text = "label10";
             // 
             // pictureBox10
             // 
@@ -557,12 +367,200 @@
             this.label20.TabIndex = 49;
             this.label20.Text = "Sunflower Seeds";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(57, 225);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(139, 102);
+            this.textBox2.TabIndex = 54;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Blue;
+            this.button2.Location = new System.Drawing.Point(220, 304);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(78, 23);
+            this.button2.TabIndex = 55;
+            this.button2.Text = "Add to Cart";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(220, 225);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(139, 102);
+            this.textBox3.TabIndex = 56;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Blue;
+            this.button8.Location = new System.Drawing.Point(383, 304);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(78, 23);
+            this.button8.TabIndex = 57;
+            this.button8.Text = "Add to Cart";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(383, 225);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(139, 102);
+            this.textBox4.TabIndex = 58;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Blue;
+            this.button9.Location = new System.Drawing.Point(544, 304);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(78, 23);
+            this.button9.TabIndex = 59;
+            this.button9.Text = "Add to Cart";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(544, 225);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(139, 102);
+            this.textBox5.TabIndex = 60;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Blue;
+            this.button10.Location = new System.Drawing.Point(707, 304);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(78, 23);
+            this.button10.TabIndex = 61;
+            this.button10.Text = "Add to Cart";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(707, 225);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(139, 102);
+            this.textBox6.TabIndex = 62;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Blue;
+            this.button11.Location = new System.Drawing.Point(57, 563);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(78, 23);
+            this.button11.TabIndex = 63;
+            this.button11.Text = "Add to Cart";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(57, 484);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(139, 102);
+            this.textBox7.TabIndex = 64;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.Blue;
+            this.button12.Location = new System.Drawing.Point(220, 563);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(78, 23);
+            this.button12.TabIndex = 65;
+            this.button12.Text = "Add to Cart";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(220, 484);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(139, 102);
+            this.textBox8.TabIndex = 66;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.Blue;
+            this.button13.Location = new System.Drawing.Point(383, 563);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(78, 23);
+            this.button13.TabIndex = 67;
+            this.button13.Text = "Add to Cart";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(383, 484);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(139, 102);
+            this.textBox9.TabIndex = 68;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Blue;
+            this.button14.Location = new System.Drawing.Point(544, 563);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(78, 23);
+            this.button14.TabIndex = 69;
+            this.button14.Text = "Add to Cart";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(544, 484);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(139, 102);
+            this.textBox10.TabIndex = 70;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Blue;
+            this.button15.Location = new System.Drawing.Point(706, 563);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(78, 23);
+            this.button15.TabIndex = 71;
+            this.button15.Text = "Add to Cart";
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(706, 484);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(139, 102);
+            this.textBox11.TabIndex = 72;
+            // 
             // ProductListing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(965, 583);
+            this.ClientSize = new System.Drawing.Size(964, 595);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
@@ -573,35 +571,16 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox1);
@@ -609,6 +588,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox2);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "ProductListing";
             this.Text = "Form2";
@@ -636,34 +616,15 @@
         private Button button3;
         private Button button1;
         private PictureBox pictureBox1;
-        public Label label1;
         private Button button7;
-        public Label label2;
         private PictureBox pictureBox2;
-        private Button button8;
-        private Button button9;
-        public Label label3;
         private PictureBox pictureBox3;
-        private Button button10;
-        public Label label4;
         private PictureBox pictureBox4;
-        private Button button11;
-        public Label label5;
         private PictureBox pictureBox5;
-        private Button button12;
-        public Label label6;
         private PictureBox pictureBox6;
-        private Button button13;
-        public Label label7;
         private PictureBox pictureBox7;
-        private Button button14;
-        public Label label8;
         private PictureBox pictureBox8;
-        private Button button15;
-        public Label label9;
         private PictureBox pictureBox9;
-        private Button button16;
-        public Label label10;
         private PictureBox pictureBox10;
         private Label label11;
         private Label label12;
@@ -675,5 +636,24 @@
         private Label label18;
         private Label label19;
         private Label label20;
+        private TextBox textBox2;
+        private Button button2;
+        private TextBox textBox3;
+        private Button button8;
+        private TextBox textBox4;
+        private Button button9;
+        private TextBox textBox5;
+        private Button button10;
+        private TextBox textBox6;
+        private Button button11;
+        private TextBox textBox7;
+        private Button button12;
+        private TextBox textBox8;
+        private Button button13;
+        private TextBox textBox9;
+        private Button button14;
+        private TextBox textBox10;
+        private Button button15;
+        private TextBox textBox11;
     }
 }
