@@ -372,8 +372,10 @@
             this.textBox2.Location = new System.Drawing.Point(57, 225);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(139, 102);
             this.textBox2.TabIndex = 54;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button2
             // 
@@ -592,6 +594,7 @@
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "ProductListing";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.ProductListing_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -626,7 +629,6 @@
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private PictureBox pictureBox10;
-        private Label label11;
         private Label label12;
         private Label label13;
         private Label label14;
@@ -636,7 +638,6 @@
         private Label label18;
         private Label label19;
         private Label label20;
-        private TextBox textBox2;
         private Button button2;
         private TextBox textBox3;
         private Button button8;
@@ -655,5 +656,7 @@
         private TextBox textBox10;
         private Button button15;
         private TextBox textBox11;
+        public TextBox textBox2;
+        public Label label11;
     }
 }

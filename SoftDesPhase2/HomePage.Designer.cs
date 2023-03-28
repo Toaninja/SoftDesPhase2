@@ -36,25 +36,25 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button11 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button10 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button8 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -144,21 +144,12 @@
             // 
             this.button11.BackColor = System.Drawing.Color.Blue;
             this.button11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button11.Location = new System.Drawing.Point(700, 521);
+            this.button11.Location = new System.Drawing.Point(691, 521);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(77, 23);
             this.button11.TabIndex = 43;
             this.button11.Text = "Add to Cart";
             this.button11.UseVisualStyleBackColor = false;
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(691, 452);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 102);
-            this.label5.TabIndex = 42;
             // 
             // pictureBox5
             // 
@@ -173,22 +164,12 @@
             // 
             this.button10.BackColor = System.Drawing.Color.Blue;
             this.button10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button10.Location = new System.Drawing.Point(538, 521);
+            this.button10.Location = new System.Drawing.Point(529, 521);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(78, 23);
             this.button10.TabIndex = 40;
             this.button10.Text = "Add to Cart";
             this.button10.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(529, 452);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 102);
-            this.label4.TabIndex = 39;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox4
             // 
@@ -203,21 +184,12 @@
             // 
             this.button9.BackColor = System.Drawing.Color.Blue;
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button9.Location = new System.Drawing.Point(215, 521);
+            this.button9.Location = new System.Drawing.Point(205, 521);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(78, 23);
             this.button9.TabIndex = 37;
             this.button9.Text = "Add to Cart";
             this.button9.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Location = new System.Drawing.Point(205, 452);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 102);
-            this.label3.TabIndex = 36;
             // 
             // pictureBox3
             // 
@@ -232,21 +204,12 @@
             // 
             this.button8.BackColor = System.Drawing.Color.Blue;
             this.button8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button8.Location = new System.Drawing.Point(379, 521);
+            this.button8.Location = new System.Drawing.Point(368, 521);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(78, 23);
             this.button8.TabIndex = 34;
             this.button8.Text = "Add to Cart";
             this.button8.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(368, 452);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 102);
-            this.label2.TabIndex = 33;
             // 
             // pictureBox2
             // 
@@ -261,21 +224,12 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Blue;
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button7.Location = new System.Drawing.Point(53, 521);
+            this.button7.Location = new System.Drawing.Point(42, 521);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(78, 23);
             this.button7.TabIndex = 31;
             this.button7.Text = "Add to Cart";
             this.button7.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(42, 452);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 102);
-            this.label1.TabIndex = 30;
             // 
             // pictureBox6
             // 
@@ -342,6 +296,46 @@
             this.label10.TabIndex = 48;
             this.label10.Text = "Potatoes";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(42, 449);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(139, 95);
+            this.textBox2.TabIndex = 49;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(205, 449);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(139, 95);
+            this.textBox3.TabIndex = 50;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(368, 449);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(139, 95);
+            this.textBox4.TabIndex = 51;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(529, 449);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(139, 95);
+            this.textBox5.TabIndex = 52;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(692, 449);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(139, 95);
+            this.textBox6.TabIndex = 53;
+            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -354,19 +348,14 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button8);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
@@ -375,8 +364,14 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox6);
             this.Name = "HomePage";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.HomePage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -398,24 +393,24 @@
         private Button button1;
         private PictureBox pictureBox1;
         private Button button11;
-        public Label label5;
         private PictureBox pictureBox5;
         private Button button10;
-        public Label label4;
         private PictureBox pictureBox4;
         private Button button9;
-        public Label label3;
         private PictureBox pictureBox3;
         private Button button8;
-        public Label label2;
         private PictureBox pictureBox2;
         private Button button7;
-        public Label label1;
         private PictureBox pictureBox6;
         private Label label6;
         private Label label7;
         private Label label8;
         private Label label9;
         private Label label10;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private TextBox textBox6;
     }
 }
