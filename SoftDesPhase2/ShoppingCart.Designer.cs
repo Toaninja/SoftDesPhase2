@@ -51,10 +51,6 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
             this.Payment = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox22 = new System.Windows.Forms.TextBox();
@@ -232,7 +228,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(742, 161);
+            this.textBox10.Location = new System.Drawing.Point(742, 230);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 23);
             this.textBox10.TabIndex = 18;
@@ -240,7 +236,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(848, 161);
+            this.textBox11.Location = new System.Drawing.Point(848, 230);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 23);
             this.textBox11.TabIndex = 19;
@@ -248,7 +244,7 @@
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(742, 190);
+            this.textBox12.Location = new System.Drawing.Point(742, 259);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 23);
             this.textBox12.TabIndex = 20;
@@ -256,7 +252,7 @@
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(848, 190);
+            this.textBox13.Location = new System.Drawing.Point(848, 259);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 23);
             this.textBox13.TabIndex = 21;
@@ -264,7 +260,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(848, 248);
+            this.textBox14.Location = new System.Drawing.Point(743, 288);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 23);
             this.textBox14.TabIndex = 25;
@@ -272,7 +268,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(742, 248);
+            this.textBox15.Location = new System.Drawing.Point(849, 288);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 23);
             this.textBox15.TabIndex = 24;
@@ -280,7 +276,7 @@
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(848, 219);
+            this.textBox16.Location = new System.Drawing.Point(742, 317);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(100, 23);
             this.textBox16.TabIndex = 23;
@@ -288,43 +284,11 @@
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(742, 219);
+            this.textBox17.Location = new System.Drawing.Point(849, 317);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(100, 23);
             this.textBox17.TabIndex = 22;
             this.textBox17.TextChanged += new System.EventHandler(this.textBox17_TextChanged);
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(848, 327);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 23);
-            this.textBox18.TabIndex = 29;
-            this.textBox18.TextChanged += new System.EventHandler(this.textBox18_TextChanged);
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(742, 327);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 23);
-            this.textBox19.TabIndex = 28;
-            this.textBox19.TextChanged += new System.EventHandler(this.textBox19_TextChanged);
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(848, 277);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 23);
-            this.textBox20.TabIndex = 27;
-            this.textBox20.TextChanged += new System.EventHandler(this.textBox20_TextChanged);
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(742, 277);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(100, 23);
-            this.textBox21.TabIndex = 26;
-            this.textBox21.TextChanged += new System.EventHandler(this.textBox21_TextChanged);
             // 
             // Payment
             // 
@@ -427,7 +391,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(27, 473);
+            this.label2.Location = new System.Drawing.Point(27, 474);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 20);
             this.label2.TabIndex = 40;
@@ -438,7 +402,7 @@
             this.textBox6.Location = new System.Drawing.Point(27, 398);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(146, 72);
+            this.textBox6.Size = new System.Drawing.Size(146, 70);
             this.textBox6.TabIndex = 42;
             // 
             // textBox7
@@ -497,7 +461,7 @@
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(74, 473);
+            this.textBox23.Location = new System.Drawing.Point(94, 474);
             this.textBox23.Multiline = true;
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(63, 23);
@@ -543,7 +507,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
@@ -554,10 +517,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Payment);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox20);
-            this.Controls.Add(this.textBox21);
             this.Controls.Add(this.textBox14);
             this.Controls.Add(this.textBox15);
             this.Controls.Add(this.textBox16);
@@ -580,6 +539,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox6);
             this.Name = "ShoppingCart";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -617,10 +577,6 @@
         private TextBox textBox15;
         private TextBox textBox16;
         private TextBox textBox17;
-        private TextBox textBox18;
-        private TextBox textBox19;
-        private TextBox textBox20;
-        private TextBox textBox21;
         private Button Payment;
         private Button button6;
         private TextBox textBox22;
